@@ -1,0 +1,17 @@
+name: R (Anaconda v4.4)
+
+description: A project template that contains commonly used data science packages for R.
+
+channels: []
+packages: []
+
+platforms:
+  - linux-64
+  - osx-64
+  - win-64
+
+env_specs:
+  anaconda44_r:
+    packages:
+      - r-essentials=1.5.2
+    channels: []
